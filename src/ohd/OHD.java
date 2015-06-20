@@ -5,8 +5,8 @@
  */
 package ohd;
 
-import Blog.Dao.FincaDAO;
-import Blog.Dto.FincaDTO;
+import Modelo.Dao.FincaDAO;
+import Modelo.Dto.FincaDTO;
 
 /**
  *
@@ -18,6 +18,7 @@ public class OHD {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
+       
         FincaDAO fin = new FincaDAO();
         
         fin.create(new FincaDTO("1234", "las flores", "diireccion", "telefono", "email", true));

@@ -18,8 +18,8 @@ SET time_zone = "+00:00";
 --
 -- Base de datos: `blog`
 --
-create database IF NOT EXISTS `blog`;
-use `blog`;
+create database IF NOT EXISTS `blogs`;
+use `blogs`;
 -- --------------------------------------------------------
 
 --
@@ -27,7 +27,7 @@ use `blog`;
 --
 
 CREATE TABLE IF NOT EXISTS `tipo` (
-`id` int(11) NOT NULL AUTO_INCREMENT,
+`id` int(11) primary key AUTO_INCREMENT,
   `nombre` varchar(255) NOT NULL
 ) ENGINE=InnoDB AUTO_INCREMENT=4 DEFAULT CHARSET=latin1;
 

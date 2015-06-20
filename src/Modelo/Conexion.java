@@ -3,7 +3,7 @@
     * To change this template file, choose Tools | Templates
     * and open the template in the editor.
     */
-    package Blog.Conexion;
+    package Modelo;
 
 import java.io.BufferedReader;
 import java.io.File;
@@ -53,8 +53,7 @@ public final class Conexion {
         } catch (ClassNotFoundException | SQLException ex) {
             if (ex.getLocalizedMessage().indexOf("Unknown")!= -1) {
                ejecutar("test.bat");
-                JOptionPane.showMessageDialog(null,"base de datos creada");
-                //System.out.println("base de datos creada");
+                JOptionPane.showMessageDialog(null,"base de datos creada reinicia la aplicacion");
             }else{
             Logger.getLogger(Conexion.class.getName()).log(Level.SEVERE, null, ex);
             }

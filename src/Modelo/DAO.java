@@ -3,11 +3,11 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package Blog.Dao;
+package Modelo;
 
-import Blog.Conexion.Conexion;
-import Blog.Dto.CategoriaDTO;
-import Blog.Interfaces.Obligacion;
+import Modelo.Conexion;
+import Modelo.Dto.CategoriaDTO;
+import Modelo.Obligacion;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.SQLException;
@@ -21,7 +21,7 @@ import java.util.logging.Logger;
  * @author hammer
  */
 public class DAO {     
-    private static final Conexion con = Conexion.saberEstado("mysql","localhost","3306","blog", "root", "root");
+    private static final Conexion con = Conexion.saberEstado("mysql","localhost","3306","blogs", "root", "root");
     private static  PreparedStatement ps;
    
     

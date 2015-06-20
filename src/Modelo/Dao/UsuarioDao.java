@@ -3,10 +3,11 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package Blog.Dao;
+package Modelo.Dao;
 
-import Blog.Dto.UsuarioDto;
-import Blog.Interfaces.Obligacion;
+import Modelo.DAO;
+import Modelo.Dto.UsuarioDto;
+import Modelo.Obligacion;
 import java.util.List;
 
 /**

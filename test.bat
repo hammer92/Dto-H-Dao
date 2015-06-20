@@ -1,1 +1,1 @@
-mysql -u root --password="root" <test.sql
+mysql -u root --password="root" <modelo.sql

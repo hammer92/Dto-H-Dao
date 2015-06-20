@@ -3,9 +3,9 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package Blog.Dto;
+package Modelo.Dto;
 
-import Blog.Dao.DAO;
+import Modelo.DAO;
 
 /**
  *

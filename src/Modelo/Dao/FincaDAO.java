@@ -3,10 +3,11 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package Blog.Dao;
+package Modelo.Dao;
 
-import Blog.Dto.FincaDTO;
-import Blog.Interfaces.Obligacion;
+import Modelo.DAO;
+import Modelo.Dto.FincaDTO;
+import Modelo.Obligacion;
 import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.util.List;
