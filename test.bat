@@ -1,0 +1,1 @@
+mysql -u root --password="root" <test.sql
